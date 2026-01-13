@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BLACK RONINS | Free Fire Clan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+      
+      body {
+        font-family: 'Rajdhani', sans-serif;
+        background-color: #050505;
+        color: #ffffff;
+        overflow-x: hidden;
+      }
+      
+      .font-cyber {
+        font-family: 'Orbitron', sans-serif;
+      }
+
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0a0a0a;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #ef4444; /* Red-500 */
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #dc2626; /* Red-600 */
+      }
+      
+      /* Neon Glow Utilities */
+      .text-glow {
+        text-shadow: 0 0 10px rgba(239, 68, 68, 0.7);
+      }
+      .box-glow {
+        box-shadow: 0 0 15px rgba(239, 68, 68, 0.3);
+      }
+      
+      .clip-corner {
+        clip-path: polygon(
+          0 0,
+          100% 0,
+          100% 85%,
+          95% 100%,
+          0 100%
+        );
+      }
+      
+      .clip-corner-reverse {
+        clip-path: polygon(
+          5% 0,
+          100% 0,
+          100% 100%,
+          0 100%,
+          0 15%
+        );
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
+    "framer-motion": "https://esm.sh/framer-motion@^12.23.26"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
